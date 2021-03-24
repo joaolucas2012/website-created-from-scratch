@@ -14,3 +14,7 @@ main {
     width: 980px;
     position: relative;
 }
+
+.logo {
+    padding: 16px;
+}
