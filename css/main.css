@@ -1,6 +1,7 @@
 body{
     height: 100%;
     width: 100%;
+    margin: 0 auto; /* 8px margin is standard for the body - margem de 8px é padrão para o body */
 }
 
 .menu-principal {
