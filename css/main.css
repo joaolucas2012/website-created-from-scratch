@@ -40,6 +40,9 @@ main {
     background-color: white;
     width: 980px;
     margin: 0 auto;
+}
+
+.menu-urls{
     border-bottom: 3px solid #efefef;
 }
 
