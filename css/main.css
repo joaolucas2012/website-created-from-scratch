@@ -72,3 +72,21 @@ main {
     width: 30%;
     float: right;
 }
+
+.search input{
+    background-image: url(../images/icone-search.png);
+    background-repeat: no-repeat;
+    height: 36px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 10px;
+    background-position: 96%;
+    border: 1px solid #d6d6d6;
+}
+
+.column-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
