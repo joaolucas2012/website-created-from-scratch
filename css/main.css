@@ -22,11 +22,12 @@ main {
 }
 
 .social-media ul li{
+    margin-left: 15px;
     float: left;
     list-style: none;
 }
 
 .social-media {
-    width: 20%;
+    width: 25%;
     float: right;
 }
