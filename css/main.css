@@ -63,14 +63,16 @@ main {
 }
 
 .menu{
-    width: 70%;
+    width: 56%;
     float: left;
 }
 
-.search{
+.search {
     text-align: center;
-    width: 30%;
+    width: 39%;
     float: right;
+    margin-top: -1px;
+    margin-right: 107px;
 }
 
 .search input{
@@ -79,7 +81,7 @@ main {
     height: 36px;
     padding: 12px;
     width: 190px;
-    margin-top: 10px;
+    margin-top: -9px;
     background-position: 96%;
     border: 1px solid #d6d6d6;
 }
