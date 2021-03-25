@@ -16,10 +16,17 @@ main {
 }
 
 .logo {
+    float: left;
     padding: 16px;
+    width: 70%;
 }
 
 .social-media ul li{
     float: left;
     list-style: none;
+}
+
+.social-media {
+    width: 20%;
+    float: right;
 }
