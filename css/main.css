@@ -18,3 +18,8 @@ main {
 .logo {
     padding: 16px;
 }
+
+.social-media ul li{
+    float: left;
+    list-style: none;
+}
