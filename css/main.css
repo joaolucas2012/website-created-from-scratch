@@ -4,6 +4,9 @@ body{
     margin: 0 auto; /* 8px margin is standard for the body - margem de 8px é padrão para o body */
 }
 
+ul{
+    padding: 0px!important;
+}
 .menu-principal {
     width: 100%;
     background-color: #252323;
@@ -35,7 +38,8 @@ main {
 
 .header-2{
     background-color: white;
-    width: 100%;
+    width: 980px;
+    margin: 0 auto;
     border-bottom: 3px solid #efefef;
 }
 
@@ -60,4 +64,10 @@ main {
 .search{
     width: 30%;
     float: right;
+}
+
+.column-100{
+    width: 100%;
+    float: left;
+    position: relative;
 }
