@@ -26,7 +26,7 @@ main {
 }
 
 .social-media ul li{
-    margin-left: 15px;
+    margin-left: 25px;
     float: left;
     list-style: none;
 }
@@ -44,14 +44,15 @@ main {
 }
 
 .menu-urls{
-    border-bottom: 3px solid #efefef;
     height: 80px;
+    border-bottom: 3px solid #efefef;
 }
 
 .menu ul li{
     display: inline-block;
     color: #8b8b8b;
     margin-left: 15px;
+    height: 50px;
 }
 
 .menu ul li a{
@@ -70,17 +71,4 @@ main {
     text-align: center;
     width: 30%;
     float: right;
-}
-
-.search input{
-    height: 36px;
-    padding: 12px;
-    width: 190px;
-    margin-top: 10px;
-}
-
-.column-100{
-    width: 100%;
-    float: left;
-    position: relative;
 }
