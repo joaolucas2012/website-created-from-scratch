@@ -32,3 +32,9 @@ main {
     width: 25%;
     float: right;
 }
+
+.header-2{
+    background-color: white;
+    width: 100%;
+    border-bottom: 3px solid #efefef;
+}
