@@ -99,3 +99,15 @@ main, .content {
     float: left;
     position:relative;
 }
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    top: 35%;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../images/seta-anterior.png')
+}
