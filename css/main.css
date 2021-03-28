@@ -131,3 +131,10 @@ button.slick-next{
     top: 38%;
     right: 14%;
 }
+
+
+slick-dots li{
+    font-size: 0px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+}
