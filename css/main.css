@@ -100,8 +100,8 @@ main, .content {
     position:relative;
 }
 
-.slider-principal {
-	height: 454px;
+.slider-principal{
+	height: 455px;
 }
 
 /* Preview button style sheet */
@@ -114,8 +114,8 @@ button.slick-prev{
     background-color: transparent;
     position: absolute;
     background-image: url('../images/seta-anterior.png');
-    top: 35%;
-    left: 0;
+    top: 38%;
+    left: 14%;
 }
 
 /* Next button style sheet */
@@ -127,6 +127,7 @@ button.slick-next{
     z-index: 9;
     background-color: transparent;
     position: absolute;
-    background-image: url('../images/seta-anterior.png');
-    top: 35%;
+    background-image: url('../images/seta-proximo.png');
+    top: 38%;
+    right: 14%;
 }
