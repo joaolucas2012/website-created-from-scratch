@@ -147,3 +147,7 @@ ul.slick-dots li{
 ul.slick-dots li.slick-active{
     background-color: #00bac6;
 }
+
+.slick-inicialized{
+    overflow: hidden;
+}
