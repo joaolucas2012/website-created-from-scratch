@@ -142,7 +142,14 @@ button.slick-next{
 
 /* Slick-dots buttons style sheet */
 .slick-dots li button{
-
+    /* reseting the buttons */
+    font-size: 0px;
+    border: 2px solid white;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .slick-dots{
@@ -150,6 +157,7 @@ button.slick-next{
     width: 50%;
     position: relative;
     left: 22%;
+
 }
 
 .slick-dots li{
