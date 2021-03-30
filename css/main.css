@@ -132,22 +132,27 @@ button.slick-next{
     right: 14%;
 }
 
-/* Slick-dots button style sheet */
-ul.slick-dots li{
-    display: inline;
-    font-size: 0px;
-    border: 3px solid #ffffff;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    float: left;
-}
-
-/* Slick-active style sheet */
-ul.slick-dots li.slick-active{
-    background-color: #00bac6;
+.slick-list{
+    width: 100%!important;
 }
 
 .slick-inicialized{
     overflow: hidden;
+}
+
+/* Slick-dots buttons style sheet */
+.slick-dots li button{
+
+}
+
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    left: 22%;
+}
+
+.slick-dots li{
+    /* Leave all the li side by side */
+    display: inline-block; 
 }
