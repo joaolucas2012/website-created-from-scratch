@@ -155,9 +155,10 @@ button.slick-next{
 .slick-dots{
     margin: 0 auto;
     width: 50%;
-    position: relative;
-    left: 22%;
-
+    /* Absolute faz com que ele não siga nenhum padrão de nenhuma div pai */
+    position: absolute;
+    left: 50%;
+    top: 600px;
 }
 
 .slick-dots li{
