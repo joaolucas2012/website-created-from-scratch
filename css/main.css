@@ -159,8 +159,8 @@ button.slick-next{
     width: 50%;
     /* Absolute faz com que ele não siga nenhum padrão de nenhuma div pai */
     position: absolute;
-    left: 50%;
-    top: 470px;
+    left: 46%;
+    top: 463px;
 }
 
 .slick-dots li{
