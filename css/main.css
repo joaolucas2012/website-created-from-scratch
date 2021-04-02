@@ -166,4 +166,5 @@ button.slick-next{
 .slick-dots li{
     /* Leave all the li side by side */
     display: inline-block; 
+    padding-left: 10px;
 }
