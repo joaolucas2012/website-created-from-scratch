@@ -180,8 +180,11 @@ li.slick-active button{
     color: #646464;
 }
 .featured-text h2{
+    font-size: 30px;
+    text-transform: uppercase;
     color: #818181;
 }
 .featured-text p{
+    font-size: 15px;
     color: #9a9a9a;
 }
