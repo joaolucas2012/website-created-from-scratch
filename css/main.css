@@ -163,6 +163,10 @@ button.slick-next{
     bottom: -25;
 }
 
+li.slick-active button{
+    background-color: #00bac6;
+}
+
 .slick-dots li{
     /* Leave all the li side by side */
     display: inline-block; 
