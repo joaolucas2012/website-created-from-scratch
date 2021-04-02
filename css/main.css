@@ -115,7 +115,7 @@ button.slick-prev{
     background-color: transparent;
     position: absolute;
     background-image: url('../images/seta-anterior.png');
-    top: 38%;
+    top: 42%;
     left: 14%;
 }
 
@@ -129,7 +129,7 @@ button.slick-next{
     background-color: transparent;
     position: absolute;
     background-image: url('../images/seta-proximo.png');
-    top: 38%;
+    top: 42%;
     right: 14%;
 }
 
