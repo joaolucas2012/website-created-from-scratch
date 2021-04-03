@@ -196,3 +196,7 @@ li.slick-active button{
     float: left;
     position: relative;
 }
+
+.text-block{
+    margin-top: 3em;
+}
