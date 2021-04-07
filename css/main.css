@@ -231,7 +231,7 @@ h3{
 .image-text-block:before{
     width: 100%;
     display: inline-block;
-    content: '';
+    content: '«';
     height: 52px;
     background: #ffffff;
 }
@@ -239,7 +239,7 @@ h3{
 .image-text-block:after{
     width: 100%;
     display: inline-block;
-    content: '';
+    content: '»';
     height: 70px;
     background: #eeeeee;
 }
