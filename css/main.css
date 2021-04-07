@@ -185,11 +185,12 @@ li.slick-active button{
     color: #534f4f;
 }
 .featured-text p{
-    font-size: 20px;
+    font-size: 15px;
     color: #271f1f;
 }
 
 .col-3{
+    text-align: center;
     padding-left: 15px;
     padding-right: 15px;
     width: 29%;
@@ -209,6 +210,10 @@ li.slick-active button{
     padding-top: 15px;
     padding-bottom: 15px;
     margin-left: 10px;
+}
+
+.image-block b, p{
+    text-align: left;
 }
 
 .text-block{
