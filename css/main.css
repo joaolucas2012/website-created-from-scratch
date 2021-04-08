@@ -185,8 +185,9 @@ li.slick-active button{
     color: #534f4f;
 }
 .featured-text p{
-    font-size: 15px;
+    font-size: 20px;
     color: #271f1f;
+    text-align: center;
 }
 
 .col-3{
@@ -233,8 +234,10 @@ h3{
     display: inline-block;
     content: '';
     height: 52px;
-    background: #ffffff;
+    background: white;
     background-image: url('../images/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .image-text-block:after{
