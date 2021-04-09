@@ -211,9 +211,9 @@ li.slick-active button{
     padding-top: 15px;
     padding-bottom: 15px;
     /* margin: 5px; a value for all the positions */
-    margin: 0px 5px 0px 5px; /*top, left, bottom, right */
+    /* margin: 0px 5px 0px 5px; top, left, bottom, right */
     /* margin: 10px 5px 0px; top, left, bottom */
-    /* margin: 0px 5px; top e bottom, left e right */
+    margin: 0px 5px; /*top e bottom, left e right*/
 }
 
 .image-block b, p{
@@ -250,3 +250,4 @@ h3{
     height: 70px;
     background: #eeeeee;
 }
+
