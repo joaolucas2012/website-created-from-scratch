@@ -210,8 +210,8 @@ li.slick-active button{
     border: 1px solid #c5c5c5;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin: 5px; /*a value for all the positions*/
-    /* margin: 10px 5px 10px 5px; top, left, bottom, right */
+    /* margin: 5px; a value for all the positions */
+    margin: 0px 5px 0px 5px; /*top, left, bottom, right */
     /* margin: 10px 5px 0px; top, left, bottom */
     /* margin: 0px 5px; top e bottom, left e right */
 }
