@@ -258,6 +258,7 @@ h3{
 }
 
 .col-4 img{
+    cursor: pointer; /*Transforma a imagem em um link, fica com o efeito de mãozinha quando passa o mouse em cima*/
     margin: 0 auto;
     padding-top: 1em;
     vertical-align: middle;
