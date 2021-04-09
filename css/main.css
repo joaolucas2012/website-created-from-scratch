@@ -255,6 +255,8 @@ h3{
     float: left;
     width: 25%;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .col-4 img{
@@ -262,4 +264,11 @@ h3{
     margin: 0 auto;
     padding-top: 1em;
     vertical-align: middle;
+    align-items: center;
+    display: inline;
+}
+
+.col-4 img:hover{
+    margin-top: 1px!important;
+    position: relative;
 }
