@@ -264,8 +264,8 @@ h3{
     margin: 0 auto;
     padding-top: 1em;
     vertical-align: middle;
-    align-items: center;
     display: inline;
+    align-content: center;
 }
 
 .col-4 img:hover{
