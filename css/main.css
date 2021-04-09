@@ -251,3 +251,14 @@ h3{
     background: #eeeeee;
 }
 
+.col-4{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-4 img{
+    margin: 0 auto;
+    padding-top: 1em;
+    vertical-align: middle;
+}
