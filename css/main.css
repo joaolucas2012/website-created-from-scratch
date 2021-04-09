@@ -37,6 +37,14 @@ main, .content {
     float: right;
 }
 
+.social-media img{
+    cursor: pointer;
+}
+
+.social-media img:hover{
+    padding-top: 1px;
+}
+
 .header-2{
     background-color: white;
     width: 980px;
