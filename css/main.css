@@ -286,3 +286,6 @@ h3{
     position: relative;
 }
 
+.footer h3{
+    text-align: left;
+}
