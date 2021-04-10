@@ -24,6 +24,11 @@ main, .content {
     float: left;
     padding: 16px;
     width: 70%;
+    cursor: pointer;
+}
+
+.logo img:hover{
+    margin-top: 1px;
 }
 
 .social-media ul li{
