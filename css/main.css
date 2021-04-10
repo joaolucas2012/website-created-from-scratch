@@ -98,7 +98,7 @@ main, .content {
 }
 
 .search input{
-    background-image: url(../images/icone-search.png);
+    background-image: url('../images/icone-search.png');
     background-repeat: no-repeat;
     height: 36px;
     padding: 12px;
@@ -288,4 +288,9 @@ h3{
 
 .footer h3{
     text-align: left;
+}
+
+.footer{
+    background-image: url('../images/footer.png');
+    color: white;
 }
