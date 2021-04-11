@@ -295,6 +295,11 @@ h3{
     color: white;
 }
 
+.footer p{
+    width: 75%;
+    text-align: inline-block;
+}
+
 .clock{
     color: #898989;
 }
@@ -314,5 +319,5 @@ h3{
 .hr1{
     border: 0;
     border-top: 0.5px solid #CCC;
-    margin-inline-end: 15px;
+    margin-inline-end: 60px;
 }
