@@ -321,3 +321,26 @@ h3{
     border-top: 0.5px solid #CCC;
     margin-inline-end: 60px;
 }
+
+.local:before, .emailico:before, telefoneico:before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline; /*Always put a display and it works*/
+    background-image: url('../images/email.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local:before{
+    background-image: url('../images/local.png');
+}
+
+.emailico:before{
+    background-image: url('../images/emailico.png');
+}
+
+.telefoneico:before{
+    background-image: url('../images/telefoneico.png');
+}
