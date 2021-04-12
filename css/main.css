@@ -300,6 +300,13 @@ h3{
     text-align: inline-block;
 }
 
+.footer-2{
+    background-image: url('../images/footer2.png');
+    color: #c1c1c1;
+    height: 90px;
+    padding-top: 45px;
+}
+
 .clock{
     color: #898989;
 }
