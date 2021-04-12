@@ -322,10 +322,10 @@ h3{
     margin-inline-end: 60px;
 }
 
-.local:before, .emailico:before, telefoneico:before{
+.local:before, .emailico:before, .telefoneico:before{
     content: '';
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 20px;
     display: inline; /*Always put a display and it works*/
     background-image: url('../images/email.png');
     float: left;
