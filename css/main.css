@@ -391,6 +391,12 @@ h3{
         float: left;
     }
 
+    main, .content {
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+    }
+
     .logo {
         float: left;
         width: 50%;
@@ -399,12 +405,10 @@ h3{
     }
 
     .social-media{
-        float: left;
-        width: 35%;
+        float: right;
+        width: 29%;
         cursor: pointer;
     }
-
-    .column-100
 
     .menu{
         width: 70%;
@@ -440,7 +444,7 @@ h3{
 
     .search {
         text-align: center;
-        width: 15%;
+        width: 30%;
         float: right;
         display: inline-flex;
         margin-top: 12px;
@@ -449,6 +453,10 @@ h3{
     .slider-principal{
         width: 100%;
         height: auto;
+    }
+
+    .slider-principal img{
+        height: 300px;
     }
 
     /* Preview button style sheet */
@@ -461,7 +469,7 @@ h3{
         background-color: transparent;
         position: absolute;
         background-image: url('../images/seta-anterior.png');
-        top: 19%;
+        top: 35%;
         left: 17%;
     }
 
@@ -475,7 +483,7 @@ h3{
         background-color: transparent;
         position: absolute;
         background-image: url('../images/seta-proximo.png');
-        top: 19%;
+        top: 35%;
         right: 14%;
     }
 
@@ -492,7 +500,45 @@ h3{
         width: 100%;
     }
 
-    .column-100.image-text-block{
+    .col-3{
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 25%!important;
+        float: left;
+        position: relative;
+    }
+
+    .text-block{
+        width: 29%;
+        margin-left: 30px;
+        
+    }
+
+    .image-block{
+        margin-right: 10px;
+        margin-left: 0px;
+        padding: 0 auto;
+    }
+
+    .image-text-block{
         width: 100%;
+    }
+
+
+    .col-4{
+        width: 25%;
+    }
+    
+    .footer p, h3{
+        margin-left: 15px;
+    }
+
+    .footer-2 p{
+        margin-left: 15px;
+    }
+
+    .footer-2 ul li{
+        margin-top: 8px;
     }
 }
