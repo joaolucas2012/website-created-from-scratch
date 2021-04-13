@@ -91,10 +91,9 @@ main, .content {
 
 .search {
     text-align: center;
-    width: 38.7%;
+    width: 28%;
     float: right;
-    margin-top: -1px;
-    margin-right: 110px;
+    margin-top: 15px;
 }
 
 .search input{
