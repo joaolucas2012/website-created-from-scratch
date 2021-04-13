@@ -211,6 +211,11 @@ li.slick-active button{
     position: relative;
 }
 
+.content text-image{
+    margin-left: 15%; 
+    float: left;
+}
+
 .image-block img {
     margin: 0 auto;
     width: 100%;
@@ -378,7 +383,7 @@ h3{
 /* RESPONSIVIDADE DO SITE */
 
 /* Tablets */
-@media only screen and (max-device-width: 768px){
+@media screen and (max-width: 768px){
     .menu-principal {
         width: 100%;
         background-color: #252323;
@@ -509,6 +514,11 @@ h3{
         position: relative;
     }
 
+    .content text-image{
+        margin-left: 10%; 
+        float: left;
+    }
+
     .text-block{
         width: 29%;
         margin-left: 30px;
@@ -517,14 +527,13 @@ h3{
 
     .image-block{
         margin-right: 10px;
-        margin-left: 0px;
+        margin-left: 25px;
         padding: 0 auto;
     }
 
     .image-text-block{
         width: 100%;
     }
-
 
     .col-4{
         width: 25%;
