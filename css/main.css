@@ -375,3 +375,125 @@ h3{
 .telefoneico:before{
     background-image: url('../images/telefoneico.png');
 }
+
+/* RESPONSIVIDADE DO SITE */
+
+/* Tablets */
+@media only screen and (max-device-width: 768px){
+    .menu-principal {
+        width: 100%;
+        background-color: #252323;
+        height: 60px;
+    }
+
+    .menu{
+        display: inline;
+        width: 100%;
+        float: left;
+    }
+
+    .logo {
+        float: left;
+        width: 50%;
+        cursor: pointer;
+        margin-left: 20px;
+    }
+
+    .social-media{
+        float: left;
+        width: 35%;
+        cursor: pointer;
+    }
+
+    .column-100
+
+    .menu{
+        width: 70%;
+    }
+
+    .menu-urls{
+        height: 70px;
+    }
+
+    .menu ul{
+        float: left;
+    }
+
+    .menu ul li{
+        color: #8b8b8b;
+        margin-left: 20px;
+        display: inline-block;
+    }
+
+    .menu ul li a{
+        color: #8b8b8b;
+        text-decoration: none;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .header-2{
+        background-color: white;
+        width: 100%;
+        margin: 0 auto;
+        padding: 16px;
+    }
+
+    .search {
+        text-align: center;
+        width: 15%;
+        float: right;
+        display: inline-flex;
+        margin-top: 12px;
+    }
+
+    .slider-principal{
+        width: 100%;
+        height: auto;
+    }
+
+    /* Preview button style sheet */
+    button.slick-prev{
+        font-size: 0px;
+        border: none;
+        width: 25px;
+        height: 51px;
+        z-index: 9;
+        background-color: transparent;
+        position: absolute;
+        background-image: url('../images/seta-anterior.png');
+        top: 19%;
+        left: 17%;
+    }
+
+    /* Next button style sheet */
+    button.slick-next{
+        font-size: 0px;
+        border: none;
+        width: 25px;
+        height: 51px;
+        z-index: 9;
+        background-color: transparent;
+        position: absolute;
+        background-image: url('../images/seta-proximo.png');
+        top: 19%;
+        right: 14%;
+    }
+
+    .slick-dots{
+        margin: 0 auto;
+        width: 50%;
+        /* Absolute faz com que ele não siga nenhum padrão de nenhuma div pai */
+        position: absolute;
+        left: 41%;
+        bottom: 5%;
+    }
+
+    .featured-text{
+        width: 100%;
+    }
+
+    .column-100.image-text-block{
+        width: 100%;
+    }
+}
