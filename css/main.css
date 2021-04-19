@@ -391,7 +391,7 @@ h3{
     background-image: url('../images/telefoneico.png');
 }
 
-/* RESPONSIVIDADE DO SITE */
+/* RESPONSIVIDADE DO SITE - Media queries*/
 
 /* Tablets */
 @media (max-width: 768px){
@@ -568,5 +568,13 @@ h3{
     .footer-2 ul li{
         margin-top: 8px;
         padding-right:0.1em;
+    }
+}
+
+@media (max-width: 712px){
+    .menu ul li {
+        color: #8b8b8b;
+        margin-left: 13px;
+        display: inline-block;
     }
 }
