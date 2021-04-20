@@ -577,4 +577,20 @@ h3{
         margin-left: 13px;
         display: inline-block;
     }
+
+    .col-4{
+        width: 100%;
+    }
+
+    .col-4 h3{
+        text-align: center;
+    }
+
+    .col-4 p{
+        text-align: center;
+    }
+
+    .footer-2 li{
+        margin-right: 52px;
+    }
 }

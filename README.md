@@ -27,3 +27,8 @@ Textos fluidos
 `em` - multiplicado pelo pai
 `rem`- multiplicado pelo root (html)
 <!-- Padrão do root é 16px -->
+
+Técnica do grid
+<!-- display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+    grid-gap: 10px; -->
